@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'fonts.scss';
+
+body { 
+  @apply bg-background text-white;
+  @apply text-lg;
+  @apply font-montserrat;
+}
+
+a { @apply text-link }
